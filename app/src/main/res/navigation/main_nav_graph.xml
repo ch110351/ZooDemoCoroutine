@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/venueListFragment">
+
+    <fragment
+        android:id="@+id/venueListFragment"
+        android:name="com.example.zoointro.ui.VenueListFragment"
+        tools:layout="@layout/fragment_venue_list">
+        <action
+            android:id="@+id/action_venueListFragment_to_userInfoFragment"
+            app:destination="@id/venueFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/venueFragment"
+        android:name="com.example.zoointro.ui.VenueFragment"
+        tools:layout="@layout/fragment_venue">
+        <action
+            android:id="@+id/action_venueFragment_to_plantFragment"
+            app:destination="@id/plantFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/plantFragment"
+        android:name="com.example.zoointro.ui.PlantFragment"
+        tools:layout="@layout/fragment_plant" />
+
+
+</navigation>

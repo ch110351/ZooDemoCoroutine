@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZooIntro</string>
+    <string name="home_title">臺北市立動物園</string>
+    <string name="no_rest_info">無休館資訊</string>
+    <string name="plant_container_title">植物資料</string>
+    <string name="plant_also_known">別名\n</string>
+    <string name="plant_brief">簡介\n</string>
+    <string name="plant_feature">辨認方式\n</string>
+    <string name="plant_function">功能性\n</string>
+    <string name="plant_update">最後更新 : </string>
+    <string name="venue_bird_ori">鳥園區</string>
+    <string name="venue_bird_replace">鳥園</string>
+    <string name="venue_url_text">在網頁開啟</string>
+    <string name="common_error_server">Server Error</string>
+    <string name="common_error_request">Error Request</string>
+    <string name="network_not_available">Network not available</string>
+</resources>
